@@ -15,7 +15,7 @@
 <footer>
 	
 
-	<p>© Copyright deserved to Adrian BARQUERO RODRIGUEZ, Antoine LELONG et Louis RICOUR</p>
+	<p>© Copyright <?php echo date("Y"); ?> deserved to Adrian BARQUERO RODRIGUEZ, Antoine LELONG et Louis RICOUR</p>
 
 
 
