@@ -22,21 +22,21 @@
  <?php if(empty($_SESSION['id'])) { ?>
 <header >
   <nav class="navbar ">
-  <a class="navbar-brand" href="index.php">
+  <a class="navbar-brand" id="aheader" href="index.php">
     <img src="images/logo.png" id="logo">
   </a>
 <ul class="nav justify-content-end">
   <li class="nav-item d-none d-xl-block">
-    <a  href="index.php">Accueil</a>
+    <a  href="index.php" id="aheader">Accueil</a>
   </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="collection.php"" >Collection</a>
+    <a  href="collection.php" id="aheader" >Collection</a>
   </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="add_pokemon.php"">Ajouter un Pokemon</a>
+    <a  href="add_pokemon.php" id="aheader">Ajouter un Pokemon</a>
   </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="connexion.php"">Connexion</a>
+    <a  href="connexion.php" id="aheader">Connexion</a>
   </li>
   
 </ul>
@@ -51,20 +51,20 @@
   </a>
 <ul class="nav justify-content-end">
   <li class="nav-item d-none d-xl-block">
-    <a  href="index.php" >Accueil</a>
+    <a  href="index.php" id="aheader">Accueil</a>
   </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="collection.php"  >Collection</a>
+    <a  href="collection.php"  id="aheader">Collection</a>
   </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="add_pokemon.php" >Ajouter un Pokemon</a>
+    <a  href="add_pokemon.php" id="aheader">Ajouter un Pokemon</a>
   </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="profil.php" >Mon compte</a>
+    <a  href="profil.php" id="aheader">Mon compte</a>
   </li>
    </li>
   <li class="nav-item d-none d-xl-block">
-    <a  href="deconnexion.php" >Déconnexion</a>
+    <a  href="deconnexion.php" id="aheader">Déconnexion</a>
   </li>
   
 </ul>
